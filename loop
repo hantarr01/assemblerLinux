@@ -1,0 +1,25 @@
+#!/bin/bash
+ fun(){
+ is -1
+ }
+ for variable in 'fun is -1'
+ do
+echo "$variable"
+done
+
+#!/bin/bash
+total=0
+while [ $total -lt 10 ]
+do
+((total++))
+echo $count
+done
+
+#!/bin/bash
+total=0
+
+until [ $total -gt 10 ]
+do
+((total++))
+echo $count
+done
